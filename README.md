@@ -1,35 +1,49 @@
-# Employee Bonus Calculator
+# 💰 Employee Bonus Calculator
 
-A simple Python program that calculates an employee's bonus based on their salary and performance rating. It also calculates the employee's final salary after adding the bonus.
+A beginner-friendly Python project that calculates an employee's bonus based on their performance rating and salary. The program also calculates the employee's final salary after adding the bonus.
 
-## Features
+This project demonstrates the use of conditional statements, user input, arithmetic operations, and basic Python programming concepts.
 
-- Accepts employee name and salary.
-- Takes employee performance rating from 1 to 5.
-- Calculates bonus based on the rating.
-- Adds an extra ₹2,000 bonus for employees earning less than ₹30,000.
-- Displays the original salary, bonus, and final salary.
-- Handles invalid ratings.
+---
 
-## Bonus Calculation
+## 📌 Project Overview
 
-| Rating | Bonus Percentage |
-|--------|------------------|
-| 5      | 20%              |
-| 4      | 15%              |
-| 3      | 10%              |
-| 2      | 5%               |
-| 1      | 0%               |
+Employee bonuses are often calculated based on performance and salary. This project automates the bonus calculation process using a simple Python program.
 
-Employees earning less than ₹30,000 receive an additional ₹2,000 bonus.
+The program accepts the employee's name, salary, and performance rating. Based on the rating, it calculates the bonus amount and displays the employee's final salary.
 
-## Technologies Used
+Employees earning less than ₹30,000 receive an additional bonus of ₹2,000.
 
-- Python
+---
 
-## How to Run
+## ✨ Features
 
-1. Clone the repository:
+- Accepts employee details through user input.
+- Calculates bonuses based on performance ratings.
+- Supports ratings from 1 to 5.
+- Provides different bonus percentages for each rating.
+- Adds an additional ₹2,000 for salaries below ₹30,000.
+- Calculates the final salary automatically.
+- Displays employee bonus details in a clear format.
+- Handles invalid performance ratings.
 
-   ```bash
-   git clone <your-repository-url>
+---
+
+## 🧮 Bonus Calculation
+
+| Performance Rating | Bonus Percentage |
+|---------------------|------------------|
+| 5                   | 20%              |
+| 4                   | 15%              |
+| 3                   | 10%              |
+| 2                   | 5%               |
+| 1                   | 0%               |
+
+### Additional Bonus Rule
+
+Employees with a salary below ₹30,000 receive an additional bonus of ₹2,000.
+
+### Final Salary Formula
+
+```text
+Final Salary = Original Salary + Total Bonus
